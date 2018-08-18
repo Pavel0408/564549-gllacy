@@ -3,6 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Магазин Глэйси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</title>
+  <!-- <style>
+        .visually-hidden {
+            position: absolute;
+            clip: rect(0,0,0,0);
+            width: 0;
+            height: 0;
+            border: none;
+        }
+    </style> -->
   </head>
   <body style="background-color: #849d8f "> <!--Чтобы отобразился логотип-->
         <header  class="main-header">
@@ -27,20 +36,25 @@
            </ul> 
            
            <ul class="user-block">
-             <li><a href="#" class="visually-hidden">Поиск</a>
+            <li><a href="#" class="visually-hidden">Поиск</a>
                  <div class="search-form">
                     <form action="https://echo.htmlacademy.ru" method="get">
                         <label for="search" class="visually-hidden">Поиск</label>   
-                        <input type="search" name="search" id="search" value="Что ищем?">
+                        <input type="search" name="search" id="search" placeholder="Что ищем?">
                     </form>
                  </div>
              </li>
              <li><a href="#">Вход</a>
                  <div class="enter-form">
-                    <!-- Здесь будет форма -->
-                    <button class="btn" type="submit">Войти</button>
-                    <a href="#">Забыли пароль?</a>
-                    <a href="#">Новая регистрация</a>
+                    <form action="https://echo.htmlacademy.ru" method="post">
+                        <label for="email-enter"  class="visually-hidden">Электронная почта</label>
+                        <input type="email" name="email-enter" id="email-enter" placeholder="Электронная почта">
+                        <label for="password"  class="visually-hidden">Пароль</label>
+                        <input type="password" name="password" id="password" placeholder="Пароль">
+                        <button class="btn" type="submit">Войти</button>
+                        <a href="#">Забыли пароль?</a>
+                        <a href="#">Новая регистрация</a>
+                     </form>
                 </div>
              </li>
              <li><a href="#">Корзина</a>

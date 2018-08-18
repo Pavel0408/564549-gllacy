@@ -27,9 +27,12 @@
            </ul> 
            
            <ul class="user-block">
-             <li><a href="#">Поиск</a>
+             <li><a href="#" class="visually-hidden">Поиск</a>
                  <div class="search-form">
-                <!-- Здесь будет форма -->
+                    <form action="https://echo.htmlacademy.ru" method="get">
+                        <label for="search" class="visually-hidden">Поиск</label>   
+                        <input type="search" name="search" id="search" value="Что ищем?">
+                    </form>
                  </div>
              </li>
              <li><a href="#">Вход</a>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Магазин Глэйси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</title>
-   <!-- <style>
+  <!-- <style>
         .visually-hidden {
             position: absolute;
             clip: rect(0,0,0,0);
@@ -166,11 +166,18 @@
     
 
 
-    <section class="feedback-form">
+    <section class="feedback-form" title="Форма обратной связи">
         <h2>Мы обязательно вам ответим!</h2>
-        <span class="close">X</span>
-        <!-- Здесь будет форма -->
-        <button class="btn" type="submit">Отправить</button>
+           <button type="button">Закрыть форму</button>
+            <form action="https://echo.htmlacademy.ru" method="post">                
+                <label for="name" class="visually-hidden">Ваше имя</label>
+                <input type="text" name="name" id="name" placeholder="Как вас зовут?">
+                <label for="email-feedback"  class="visually-hidden">Почта для ответа</label>
+                <input type="email" name="email-feedback" id="email-feedback" placeholder="Ваша почта для ответа?">
+                <label for="message-area"  class="visually-hidden">Введите сообщение</label>
+                <textarea name="massgde-area" id="message-area" placeholder="Напишите что-нибудь"></textarea>
+                <button class="btn" type="submit">Отправить</button>
+        </form>
     </section>    
   </body>
 </html>

@@ -2,6 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>Магазин Глэйси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</title>
   <!-- <style>
         .visually-hidden {
@@ -20,11 +23,11 @@
            
             <a href="index.html"><img src="img/Logo.svg" width="154" height="64" alt="Логотип магазина мороженого Глэйси"></a>
            
-           <ul class="site-navigation">
-             <li><a href="catalog.html">Каталог</a>
+           <ul class="site-navigation default">
+             <li  class="active"><a href="catalog.html">Каталог</a>
                  <div class="catalog-menu">       
                      <div><a href="#">Новинки</a></div>
-                         <ul>
+                         <ul class="default">
                             <li><a href="#">Сливочное</a></li>
                             <li><a href="#">Щербеты</a></li>
                             <li><a href="#">Фруктовый лед</a></li>
@@ -35,7 +38,7 @@
              <li><a href="#">О Компании</a></li> 
            </ul> 
            <h2 class="visually-hidden">Пользовательский раздел</h2>
-           <ul class="user-block">
+           <ul class="user-block default">
            
             <li><a href="#" class="visually-hidden">Поиск</a>
                 <h2 class="visually-hidden">Форма поиска</h2>
@@ -69,24 +72,24 @@
                            <td><button type="button">Удалить из корзины</button> </td>
                            <td><img src="img/c-ic-basket-1.jpg" width="33" height="33"></td>
                            <td>Пломбир с апельсиновым джемом</td>
-                           <td>1,5 кг х <span>200 руб</span></td>
+                           <td>1,5 кг х <span class="order-price">200 руб</span></td>
                            <td>3000 руб.</td>               
                        </tr>
                        <tr>
                            <td><button type="button">Удалить из корзины</button> </td>
                            <td><img src="img/c-ic-basket-2.jpg" width="33" height="33"></td>
                            <td>Клубничный пломбир с присыпкой из белого шоколада</td>
-                           <td>1,5 кг х <span>300 руб</span></td>
+                           <td>1,5 кг х <span class="order-price">300 руб</span></td>
                            <td>450 руб.</td>
                        </tr>
                    </table>
-                   <p>Итого: 750 руб.</p>
+                   <p class="default">Итого: 750 руб.</p>
                    <button class="btn" type="button">Оформить заказ</button>
         
                 </div>
             </li>
            </ul>
-           <p>С 10 до 20, ежедневно <span>8 812 450-25-25</span></p>    
+           <p>С 10 до 20, ежедневно <span class="phone">8 812 450-25-25</span></p>    
       </nav>        
     </header>
     <main>

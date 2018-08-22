@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: 323232;
+    font-weight: 400;
+    
+    background-color: #849d8f;
+}
+
+a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+a:hover {
+  color: #ffbc9e;  
+}
+
+a:active {
+    color: #ffbc9e;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 0;
+    height: 0;
+    border: none;
+}
+
+.btn {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ed5c3d;
+    border: none;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #f27f65;
+}
+
+.btn:active {
+    color: #ffffff;
+    background-color: #da4e36;
+}
+
+.default {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #849d8f;
+}
+
+.phone {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+
+.visually-hidden {
+        position: absolute;
+        clip: rect(0,0,0,0);
+        width: 0;
+        height: 0;
+        border: none;
+}
+
+.main-navigation a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: underline;
+    
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-block a:hover,
+.user-block a:focus{
+    color: #333333;
+    text-decoration: none;
+    background-color: #f7f6f3;
+}
+
+.site-vavigetion a:active {
+    color: #333333;
+    text-decoration: none;
+    background-color: #f7f6f3;
+}
+
+.catalog-menu {
+    background-color: #f8f7f4;
+}
+
+.catalog-menu a {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #323232;
+    
+}
+
+.catalog-menu a:hover,
+.catalog-menu a:focus {
+    background-color: #fbded8; 
+}
+
+.new-items a {
+    font-weight: bold;
+}
+
+.active> a {
+    color: #ffffff;
+    background-color: #d07058;
+    
+}
+
+.enter-form a {
+    font-size: 13px;
+    line-height: 24px;
+    color: #323232;
+    font-weight: 400; 
+}
+
+.enter-form a:hover,
+.enter-form a:focus{
+    color: #e84d37;
+    background: none;
+}
+
+.enter-form a:active {
+    color: #e84d37;
+    background: none;
+}
+
+.enter-form .btn {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.order {
+    background-color: #f8f7f4;
+}
+
+.order table {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #323232;
+}
+
+.order-price {
+    color: #999999;
+}
+
+.order p {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #323232;
+}
+
+.slider h2 {
+    font-size: 60px;
+    line-height: 61px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.slider .btn {
+    font-size: 32px;
+    line-height: 44px;
+    
+}
+
+.banners {
+    color: #ffffff;
+    background-color: #3d2419;   
+    
+}
+
+.banners h2 {
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: bold;
+    color: 
+}
+
+.banners p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.banners .btn {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.banner-1 {
+    background-color: #9f1d36;
+    background-image: url("../img/raspberry-background-full.jpg")
+}
+
+.banner-2 {
+    background-color: #3d2419;
+    background-image: url("../img/chocolate-background-full.jpg")
+    
+}
+
+.hits {
+    background-color: #849d8f;
+}
+
+.hits a {
+    text-decoration: none;
+}
+
+.hit-price {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hit-price span {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.hit-description {
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.features {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400; 
+    color: 323232;
+    background-color: #eaddbf;
+    background-image: url(../img/waffle-pattern.jpg);
+    
+    
+}
+
+.features h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.news-blog {
+    color: #323232;
+    background-color: #ffffff;
+    background-image: url("../img/strawberry-background-full.jpg");
+    
+    
+}
+
+.news-blog h2 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.news-blog a {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #323232;
+}
+
+.subscription-form {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: 5a5a5a;
+    background-color: #f8f7f4;
+}
+
+.subscription-form .btn {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: 323232;
+    background-color: #fefefe;
+}
+
+.address-content {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.address .btn {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.official a {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-copyright p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fefefe;
+}
+
+.footer-copyright span {
+    text-decoration: underline;
+}
+
+.feedback-form {
+    background-color: #f8f7f4;
+}
+
+.feedback-form h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #323232;
+}
+
+.feedback-form .btn {
+    font-size: 18px;
+    line-height: 24px;
+    
+}

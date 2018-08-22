@@ -180,6 +180,30 @@ a:active {
     color: #323232;
 }
 
+.order .btn {
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+
+.crumbs a {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.crumbs-active a {
+    text-decoration: none;
+}
+
+.catalog-name {
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 .slider h2 {
     font-size: 60px;
     line-height: 61px;
@@ -193,6 +217,35 @@ a:active {
     line-height: 44px;
     
 }
+
+.sort-form label,
+.sort-form p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.sort-form button {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #a6b7ae;
+    border: none;
+}
+
+.sort-form button:hover,
+.sort-form button:focus {
+    color: #323232;
+    background-color: #fbfcfb;
+}
+
+.sort-form button:active { 
+    color: #323232;
+    background-color: #eaeaea;    
+}
+
 
 .banners {
     color: #ffffff;
@@ -324,6 +377,19 @@ a:active {
 .address .btn {
     font-size: 18px;
     line-height: 24px;
+}
+
+.paginator a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.paginator-active a {
+   color: #323232;
+    background-color: #ffffff;
 }
 
 .official a {

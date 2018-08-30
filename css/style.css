@@ -694,6 +694,7 @@ section[class^="banner-"] {
   background-image: url("../img/hit.svg");
   top: 0px;
   left: 0px;
+  background-repeat: no-repeat;
 
 }
 

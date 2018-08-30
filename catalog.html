@@ -40,11 +40,11 @@
         <li><a href="#">Доставка и оплата</a></li>
         <li><a href="#">О Компании</a></li>
       </ul>
+
+
       <h2 class="visually-hidden">Пользовательский раздел</h2>
       <ul class="user-block default">
-
-        <li><a href="#">Поиск</a>
-          <h2 class="visually-hidden">Форма поиска</h2>
+        <li  class="search-icon"><a href="#"><span class="visually-hidden">Поиск</span></a>
           <div class="search-form">
             <form action="https://echo.htmlacademy.ru" method="get">
               <label for="search" class="visually-hidden">Поиск</label>
@@ -52,8 +52,7 @@
             </form>
           </div>
         </li>
-        <li><a href="#">Вход</a>
-
+        <li><a class="enter-icon" href="#">Вход</a>
           <div class="enter-form">
             <h2 class="visually-hidden">Форма входа</h2>
             <form action="https://echo.htmlacademy.ru" method="post">
@@ -67,7 +66,7 @@
             <a href="#">Новая регистрация</a>
           </div>
         </li>
-        <li title="Корзина"><a href="#">Корзина</a>
+        <li class="basket-full" title="Корзина"><a href="#"><span class="visually-hidden">Корзина</span> 2 товара</a>
           <div class="order">
             <h2 class="visually-hidden">Товары в корзине</h2>
             <table>
@@ -92,17 +91,22 @@
           </div>
         </li>
       </ul>
-      <p class="addres-phone default">С 10 до 20, ежедневно <span class="phone">8 812 450-25-25</span></p>
-    </nav>
-  </header>
-
-  <main class="container">
-
-    <ul class="crumbs default">
+       <ul class="crumbs default">
       <li><a href="index.html">Главная  »</a></li>
       <li><a href="#">Каталог  » </a></li>
       <li class="crumbs-active"><a>Сливочное</a></li>
     </ul>
+      <p class="addres-phone default">С 10 до 20, ежедневно <span class="phone">8 812 450-25-25</span></p>
+
+    </nav>
+
+
+
+
+
+    </header>
+
+    <main class="container">
 
     <h1 class="catalog-name default">Сливочное мороженое</h1>
     <section class="sort-form">
@@ -150,7 +154,7 @@
         <button type="submit">Применить</button>
       </form>
     </section>
-    <section class="goods hits">
+    <section class="goods">
       <h2 class="visually-hidden">Сливочное мороженое в продаже</h2>
       <ul class="items-list default">
         <!--Первый ряд-->
@@ -197,28 +201,28 @@
       </ul>
     </section>
     <ul class="paginator default">
-      <li><a><span class="visually-hidden">Предыдущая страница</span></a></li>
+      <li class="previous-page"><a><span class="visually-hidden">Предыдущая страница</span></a></li>
       <li class="paginator-active"><a><span  class="visually-hidden">Страница</span>1</a></li>
       <li><a href="#"><span class="visually-hidden">Страница</span>2</a></li>
       <li><a href="#"><span class="visually-hidden">Страница</span>3</a></li>
       <li><a href="#"><span class="visually-hidden">Страница</span>4</a></li>
       <li><a href="#"><span class="visually-hidden">Страница</span>5</a></li>
-      <li><a href="#"><span class="visually-hidden">Следующая страница</span></a></li>
+      <li class="next-page"><a href="#"><span class="visually-hidden">Следующая страница</span></a></li>
     </ul>
 
   </main>
 
-  <footer class="main-footer container">
+ <footer class="main-footer container">
     <h2 class="visually-hidden">Мы в социальных сетях</h2>
     <ul class="social default">
-      <li><a href="#">Твиттер</a></li>
-      <li><a href="#">Инстаграм</a></li>
-      <li><a href="#">Фейсбук</a></li>
-      <li><a href="#">Вконтакте</a></li>
+      <li><a href="#"><span class="visually-hidden">Твиттер</span></a></li>
+      <li  class="inst"><a href="#"><span class="visually-hidden">Инстаграм</span></a></li>
+      <li class="fb"><a href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+      <li class="vk"><a href="#"><span class="visually-hidden">Вконтакте</span></a></li>
     </ul>
     <h2 class="visually-hidden">Официальная инфорамция</h2>
     <ul class="official default">
-      <li><a href="#">Для поставщиков</a></li>
+      <li  class="suppliers" ><a href="#">Для поставщиков</a></li>
       <li><a href="#">Наши документы</a></li>
       <li><a href="#">О производстве</a></li>
       <li><a href="#">Экологические стандарты</a></li>
@@ -226,11 +230,13 @@
     <h2 class="visually-hidden">Информация о правообладателях</h2>
     <section class="footer-copyright">
       <div class="copyright-logo">
-        <img src="img/logo-htmlacademy-small.svg" width="120" height="39" alt="HTML Academy ">
+        <a href="#"><img src="img/logo-htmlacademy-small.svg" width="120" height="39" alt="HTML Academy ">
         <p class="default">Сделано в <span>HTML Academy</span> © 2017</p>
+        </a>
       </div>
     </section>
   </footer>
+
   <!--<section class="order">
        <table>
            <tr>

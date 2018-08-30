@@ -142,17 +142,17 @@ a {
 }
 
 .site-navigation li {
-	position: relative;
+  position: relative;
 }
 
 
 
 .site-navigation a {
-  display: block;  
+  display: block;
   padding: 8px 13px;
   margin-top: 12px;
-  margin-left: 2px; 
-    
+  margin-left: 2px;
+
 }
 
 
@@ -177,11 +177,11 @@ a {
 
 .catalog-menu {
   display: none;
-  background-color: #f8f7f4;  
+  background-color: #f8f7f4;
   position: absolute;
-  top:   50px;
+  top: 50px;
   left: -5px;
-  width: 144px;  
+  width: 144px;
   padding-top: 3px;
   padding-bottom: 6px;
   padding-left: 2px;
@@ -189,8 +189,8 @@ a {
   border-radius: 10px;
   z-index: 10;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
-  
-  
+
+
 }
 
 .catalog-menu a {
@@ -226,12 +226,12 @@ a {
 .new-items a {
   font-weight: bold;
   padding-bottom: 13px;
- // border-bottom: 1px solid #d1d0ce;
+  // border-bottom: 1px solid #d1d0ce;
   position: relative;
 }
 
-.new-items a::before{
-	content: "";
+.new-items a::before {
+  content: "";
   position: absolute;
   width: 129px;
   top: 35px;
@@ -1068,6 +1068,7 @@ section[class^="banner-"] {
 .paginator a:hover {
   background-color: #9db1a5;
 }
+
 .previous-page a:hover,
 .next-page a:hover {
   background-color: transparent;

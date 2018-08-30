@@ -1134,7 +1134,7 @@ section[class^="banner-"] {
 .social a {
   display: block;
   margin-right: 49px;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .social a:hover {

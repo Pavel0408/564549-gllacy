@@ -976,7 +976,7 @@ margin-bottom: 0px;
   justify-content: flex-end;
   align-items: flex-start;
   outline: 1px solid red;
-  margin-top: 44px;
+  margin-top: 40px;
 
 }
 
@@ -1003,10 +1003,18 @@ margin-bottom: 0px;
   width: 27px;
   height: 27px;
   border-radius: 50%;
+  text-align:center;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.paginator a:hover {
+	background-color: #9db1a5;
 }
 
 .paginator-active a {
   color: #323232;
+  background-color: #ffffff;
 
 
 }
@@ -1016,8 +1024,8 @@ margin-bottom: 0px;
   position: absolute;
   width: 20px;
   height: 20px;
-  top: -5px;
-  left: -16px;
+  top: -1px;
+  left: -8px;
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
   transform: scale(-1);
@@ -1029,8 +1037,8 @@ margin-bottom: 0px;
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 4px;
-  left: 4px;
+  top: 7px;
+  right: -11px;
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
 
@@ -1038,7 +1046,7 @@ margin-bottom: 0px;
 }
 
 .next-page a {
-	width: 50%;
+	width: 21px;
 }
 
 .main-footer {

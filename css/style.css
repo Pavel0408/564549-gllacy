@@ -759,7 +759,6 @@ section[class^="banner-"] {
 
 .hit-list li {
   width: 267px;
-
   position: relative;
 
 }
@@ -793,6 +792,35 @@ section[class^="banner-"] {
 
 }
 
+.item-hover  {
+  display: none;
+  position: absolute;
+  width: 294px;
+  height: 406px;
+  background-color: rgba(255,255,255,0.2);
+  top: -6px;
+  left: -13px;
+  background-repeat: no-repeat;
+  z-index: 10;
+
+
+}
+
+.item-hover .btn {
+	position: absolute;
+  bottom: 21px;
+  left: 45px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+    width: 202px;
+  height: 44px;
+  padding-top: 12px;
+}
+
+li:hover> .item-hover {
+  display: block;
+}
 
 
 .hits a {

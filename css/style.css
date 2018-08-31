@@ -458,7 +458,7 @@ a {
   line-height: 41px;
   font-weight: bold;
   color: #ffffff;
-  padding-top: 5px;
+  padding-top: 2px;
 }
 
 .sort-form {
@@ -720,6 +720,10 @@ section[class^="banner-"] {
   padding-bottom: 38px;
 }
 
+.goods {
+	padding-right: 0;
+}
+
 .hits img,
 .goods img {
   border-radius: 50%;
@@ -769,10 +773,7 @@ section[class^="banner-"] {
 
 }
 
-.items-list li:nth-child(4n) {
-  margin-right: 0;
 
-}
 
 .hits a {
   text-decoration: none;

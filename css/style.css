@@ -21,8 +21,12 @@ body {
 }
 
 .catalog-body {
-  background-color: #849d8f;
+ background-color: #849d8f;
+background-image: url("../img/catalog-background.png");
+  background-repeat: repeat-x;
+
 }
+
 
 a:hover {
   color: #ffbc9e;
@@ -1076,6 +1080,10 @@ section[class^="banner-"] {
 .previous-page a:hover,
 .next-page a:hover {
   background-color: transparent;
+}
+
+.paginator-active a:hover {
+	background-color: #ffffff;
 }
 
 .paginator-active a {

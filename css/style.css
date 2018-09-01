@@ -580,11 +580,12 @@ a {
 
 .slider-button {
   display: inline-block;
-  padding: 12px 44px;
-
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 41px;
+  min-width: 280px;
+  min-height: 63px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
   text-align: center;
   color: #ffffff;
   vertical-align: top;
@@ -621,9 +622,9 @@ a {
 
 .slider-controls label {
   display: inline-block;
-  width: 17px;
-  height: 17px;
-  margin-right: 13px;
+  width: 21px;
+  height: 21px;
+  margin-right: 8px;
 
   vertical-align: top;
 
@@ -681,7 +682,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 39px;
+  padding-top: 42px;
 
 
 }
@@ -718,10 +719,13 @@ section[class^="banner-"] {
   position: absolute;
   bottom: 23px;
   right: 21px;
-  padding-top: 13px;
-  padding-left: 23px;
-  padding-right: 25px;
+  padding-top: 12px;
+  padding-left: 22px;
+  padding-right: 22px;
   padding-bottom: 15px;
+  height: 46px;
+  min-width: 165px;
+  text-align: left;
 }
 
 .banner-1 {

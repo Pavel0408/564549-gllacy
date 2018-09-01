@@ -554,7 +554,7 @@ a {
   background-repeat: no-repeat;
 }
 
-.slider-block {
+.slider {
   position: relative;
 
   padding-top: 275px;
@@ -619,8 +619,8 @@ a {
 
 .slider-controls {
   position: absolute;
-  bottom: 20px;
-  left: 0;
+  bottom: 19px;
+  left: 27px;
   z-index: 20;
 
   font-size: 0;

@@ -116,6 +116,9 @@ a {
   padding-top: 9px;
   min-width: 103px;
   outline: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-navigation {
@@ -360,7 +363,10 @@ a {
   width: 167px;
   margin-top: -4px;
   margin-left: auto;
-
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  font-weight: bold;
   text-align: right;
 }
 
@@ -441,7 +447,7 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-top: 22px;
+  padding-top: 18px;
   margin-top: 0px;
   outline: 1px solid red;
   width: 50%;

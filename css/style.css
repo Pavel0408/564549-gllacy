@@ -693,7 +693,7 @@ a {
 
 }
 
-section[class^="banner-"] {
+li[class^="banner-"] {
   position: relative;
   width: 560px;
   border-radius: 20px;
@@ -708,6 +708,14 @@ section[class^="banner-"] {
   padding-top: 17px;
 
   color:
+}
+
+.banners-list {
+	display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .banners p {

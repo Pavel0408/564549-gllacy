@@ -759,7 +759,8 @@ li[class^="banner-"] {
 }
 
 .goods {
-	padding-right: 0;
+	padding-right: 14px;
+  padding-left: 14px;
 }
 
 .hits img,
@@ -798,13 +799,14 @@ li[class^="banner-"] {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
 .items-list li {
   width: 267px;
-  margin-right: 26px;
+  margin-right: 13px;
+  margin-left: 13px;
   position: relative;
   padding-bottom: 39px;
 

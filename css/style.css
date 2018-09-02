@@ -501,8 +501,66 @@ li:hover> .enter-form {
 
 
 .order {
-  background-color: #f8f7f4;
+  position: absolute;
   display: none;
+
+  width: 540px;
+  height: 242px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  right: 0px;
+  top: 38px;
+  padding: 26px 15px;
+
+
+
+}
+
+.order td {
+  position: relative;
+
+  padding-bottom: 13px;
+  vertical-align: top;
+
+
+}
+
+.delete {
+  width: 21px;
+  top: -8px;
+}
+
+.order-img {
+  width: 44px;
+  top:-10px
+}
+
+.order-description {
+	width: 244px;
+  padding-right: 15px;
+
+
+}
+
+.order-info {
+  width: 121px;
+
+}
+
+.full-prrice {
+  width: 68px;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  background-image: url(../img/x-1.svg);
+  width: 11px;
+  height: 11px;
+  background-repeat: no-repeat;
 }
 
 .order table {
@@ -510,6 +568,11 @@ li:hover> .enter-form {
   line-height: 16px;
   font-weight: 400;
   color: #323232;
+  border-bottom: 1px solid #cacac7;
+}
+
+.order img {
+  border-radius: 50%;
 }
 
 .order-price {
@@ -521,12 +584,25 @@ li:hover> .enter-form {
   line-height: 18px;
   font-weight: bold;
   color: #323232;
+  text-align: right;
+  padding-bottom: 60px;
+  padding-top: 11px;
+
 }
 
 .order .btn {
+ position: absolute;
   font-size: 18px;
   line-height: 24px;
+  bottom: 21px;
+  right: 15px;
+  min-height: 45px;
+  width: 170px
 
+}
+
+li:hover> .order {
+  display: block;
 }
 
 .crumbs {

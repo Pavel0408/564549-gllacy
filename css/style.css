@@ -281,10 +281,8 @@ a {
 	position: relative;
 }
 
-.search-form,
-.enter-form {
-  display: none;
-}
+
+
 
 .search-form {
 	display: none;
@@ -370,9 +368,79 @@ a {
 
 .search-icon a:hover::before,
 .search-icon a:active::before {
-
-
   background-image: url(../img/magnifier-hover.svg)
+}
+
+
+.enter-form {
+  display: none;
+  position: absolute;
+  width: 277px;
+  height: 214px;
+  border-radius: 6px;
+  background-color: rgb(248, 247, 244);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
+  right: 0;
+  top: 38px;
+  padding-top: 0px;
+  padding-left: 19px;
+  padding-bottom: 21px;
+  padding-right: 17px;
+  z-index: 10;
+}
+
+
+.enter-form  input {
+	width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d2;
+  font: inherit;
+}
+
+.registration-block {
+  margin-top: 22px;
+  padding-left: 120px;
+}
+
+
+.enter-form a {
+  font-size: 13px;
+  line-height: 24px;
+  color: #323232;
+  font-weight: 400;
+  padding: 0;
+  margin:0;
+  text-decoration: underline;
+  text-decoration-color: rgba(50,50,50,0.3);
+
+}
+
+.enter-form a:hover,
+.enter-form a:focus {
+  color: #e84d37;
+  text-decoration: underline;
+  text-decoration-color: rgba(232,77,55,0.3);
+}
+
+.enter-form a:active {
+  color: #e84d37;
+  background: none;
+}
+
+.enter-form .btn {
+  position: absolute;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100px;
+  min-height: 44px;
+  top: 148px;
+  left: 19px;
+}
+
+li:hover> .enter-form {
+  display: block;
 }
 
 .enter-icon::before {
@@ -431,28 +499,6 @@ a {
 
 
 
-.enter-form a {
-  font-size: 13px;
-  line-height: 24px;
-  color: #323232;
-  font-weight: 400;
-}
-
-.enter-form a:hover,
-.enter-form a:focus {
-  color: #e84d37;
-  background: none;
-}
-
-.enter-form a:active {
-  color: #e84d37;
-  background: none;
-}
-
-.enter-form .btn {
-  font-size: 18px;
-  line-height: 24px;
-}
 
 .order {
   background-color: #f8f7f4;

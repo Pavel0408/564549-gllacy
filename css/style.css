@@ -1328,8 +1328,17 @@ li:hover> .item-hover {
 
 .feedback-form {
   display: none;
+  position: fixed;
+  top: 338px;
+  left: 50%;
   background-color: #f8f7f4;
-  width: 477px;
+  width: 478px;
+  min-height: 442px;
+  padding-top: 16px;
+  padding-left: 23px;
+  padding-right: 25px;
+  border-radius: 10px;
+  margin-left: -239px;
 }
 
 .feedback-form h2 {
@@ -1337,10 +1346,71 @@ li:hover> .item-hover {
   line-height: 28px;
   font-weight: 500;
   color: #323232;
+  padding-bottom: 18px;
+
 }
+
+.feedback-form input {
+  width: 267px;
+  height: 44px;
+  margin-bottom: 20px;
+  margin-left: 2px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font: inherit;
+  line-height: 24px;
+  border: 1px solid #d3d3d2;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  min-height: 155px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 96px;
+  padding-left: 14px;
+  font: inherit;
+  line-height: 24px;
+  border: 1px solid #d3d3d2;
+  border-radius: 10px;
+}
+
+.close-button {
+	border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 29px;
+  top: 14px;
+
+}
+
+.button-form-close {
+  position: relative;
+
+
+}
+.button-form-close::before {
+  content: "";
+  position: absolute;
+  width:17px;
+  height: 17px;
+  background-image: url("../img/X.svg")
+}
+
+
 
 .feedback-form .btn {
   font-size: 18px;
   line-height: 24px;
+  padding-top: 9px;
+  text-align: center;
+  min-width: 137px;
+  min-height: 45px;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 25px;
+  bottom: 27px;
+
 
 }

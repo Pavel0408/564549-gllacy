@@ -116,31 +116,48 @@
       <form action="https://echo.htmlacademy.ru" method="get">
         <p class="default">
           <label for="sort-type">Сортировка</label>
-          <select name="sort-type" id="sort-type">
+          <select class="sort-select opacity-fill" name="sort-type" id="sort-type">
             <option>по популярности</option>
             <option>сначала недорогие</option>
             <option>сначала дорогие</option>
             <option>по жирности</option>
           </select>
+
         </p>
-        <p class="default">
+
+
+        <div class="range">
           <label for="price">Цена: 100 руб. – 500 руб.</label>
-          <input type="range" min="100" max="500" name="price" id="price">
-        </p>
-        <p class="default">Жирность
+           <div class="price-range">
 
-          <label for="0">0%</label>
+             <div class="rang-line">
+               <div class="left-block">
+               </div>
+               <div class="right-block">
+               </div>
+             </div>
+
+           </div>
+
+
+        </div>
+
+
+        <p class="default"><span class="label-fatness"> Жирность</span>
+          <span class="fatness opacity-fill">
           <input type=radio checked name="fatness" id="0" value="0%">
-          <label for="10">до 10%</label>
+          <label for="0">0%</label>
           <input type=radio name="fatness" id="10" value="до 10%">
-          <label for="30">до 30%</label>
+          <label for="10">до 10%</label>
           <input type=radio name="fatness" id="30" value="До 30%">
-          <label for="max">выше 30%</label>
+          <label for="30">до 30%</label>
           <input type=radio name="fatness" id="max" value="выше 30%">
-
+          <label for="max">выше 30%</label>
+        </span>
         </p>
         <p class="default">
-
+           <span class="label-fatness">Наполнители</span>
+          <span  class="fillers opacity-fill">
           <input type="checkbox" checked name="chocolate" id="chocolate">
           <label for="chocolate">шоколадные</label>
           <input type="checkbox" checked name="sugar" id="sugar">
@@ -151,7 +168,7 @@
           <label for="syrups">сиропы</label>
           <input type="checkbox" name="jams" id="jams">
           <label for="jams">джемы</label>
-
+          </span>
         </p>
         <button type="submit">Применить</button>
       </form>

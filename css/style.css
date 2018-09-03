@@ -650,9 +650,19 @@ li:hover> .order {
 }
 
 .sort-form {
-  width: 882px;
+
+
   outline: 1px solid yellow;
-  min-height: 197px
+  min-height: 197px;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.sort-form  form{
+  width: 861px;
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 
@@ -666,13 +676,163 @@ li:hover> .order {
   color: #ffffff;
 }
 
+.sort-form p,
+.range {
+	margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sort-form label,
+.label-fatness {
+	margin-bottom: 3px;
+  padding-left: 16px;
+}
+
+.sort-form span {
+	display: flex;
+
+}
+
+.opacity-fill {
+  background-color: rgba(255,255,255,0.2);
+  min-height: 37px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  border-radius: 15px;
+}
+
+.sort-select {
+  width: 194px;
+  min-height: 36px;
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-left:10px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.sort-select:hover {
+	color: #323232;
+  background-color: #9db1a5;
+
+}
+
+.range {
+	width: 218px;
+}
+
+.fatness {
+	padding-right: 17px;
+}
+
+
+.fatness input {
+  display: none;
+}
+
+.fatness label {
+  position: relative;
+  margin-left: 33px;
+
+}
+
+.fatness label::before {
+  content: "";
+  position: absolute;
+  width:22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  left: -10px;
+  top: -5px;
+
+
+}
+
+.fatness label::after {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  left: -3px;
+  top: 2px;
+}
+
+.fatness input:checked+ label::after{
+	display: block;
+}
+
+.fatness label:hover::before,
+.fatness label:hover::after {
+  opacity: 1;
+}
+
+.fillers {
+  margin-top: 3px;
+  padding-left: 16px;
+  padding-bottom: 0px;
+}
+
+.fillers input {
+  display: none;
+}
+
+.fillers label {
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 32px;
+  margin-right: 20px;
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 2px;
+  font-weight: 500;
+}
+
+.fillers label::before {
+  content: "";
+  position: absolute;
+  width:26px;
+  height: 23px;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  left: -1px;
+  top: -2px;
+}
+
+.fillers label:hover::before {
+  opacity: 1;
+}
+
+.fillers input:checked+ label::before {
+	background-image: url("../img/checkbox-on.svg");
+}
+
 .sort-form button {
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   color: #ffffff;
   background-color: #a6b7ae;
-  border: none;
+  border: 2px solid #fbfcfb;
+  min-width: 142px;
+  height: 36px;
+  border-radius: 25px;
+  margin-top: auto;
+  margin-left: 3px;;
 }
 
 .sort-form button:hover,
@@ -684,6 +844,7 @@ li:hover> .order {
 .sort-form button:active {
   color: #323232;
   background-color: #eaeaea;
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.4);
 }
 
 

@@ -19,8 +19,8 @@ body {
 }
 
 .catalog-body {
- background-color: #849d8f;
-background-image: url("../img/catalog-background.png");
+  background-color: #849d8f;
+  background-image: url("../img/catalog-background.png");
   background-repeat: repeat-x;
 
 }
@@ -30,7 +30,7 @@ a:hover,
 a:focus {
   color: #ffbc9e;
   text-decoration: underline;
-  text-decoration-color: rgba(255,188,158,0.3);
+  text-decoration-color: rgba(255, 188, 158, 0.3);
 }
 
 a:active {
@@ -133,7 +133,7 @@ a {
   font-weight: bold;
   color: #ffffff;
   text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.3);
+  text-decoration-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -233,7 +233,7 @@ a {
 
 .on-page a:hover,
 .on-page a:focus {
-	background-color: #d07058;
+  background-color: #d07058;
 }
 
 
@@ -279,13 +279,13 @@ a {
   padding-right: 0px;
 }
 
-.user-block  li{
-	position: relative;
+.user-block li {
+  position: relative;
 }
 
 
 .search-form {
-	display: none;
+  display: none;
   position: absolute;
   width: 341px;
   min-height: 84px;
@@ -302,7 +302,7 @@ a {
 }
 
 .search-form input {
-	font: inherit;
+  font: inherit;
   line-height: 16px;
   padding-top: 10px;
   padding-left: 15px;
@@ -315,7 +315,7 @@ a {
 }
 
 .search-icon:hover .search-form {
-	display: block;
+  display: block;
 }
 
 .user-block a {
@@ -392,8 +392,8 @@ a {
 }
 
 
-.enter-form  input {
-	width: 100%;
+.enter-form input {
+  width: 100%;
   margin-top: 20px;
   padding: 10px;
   border-radius: 5px;
@@ -413,9 +413,9 @@ a {
   color: #323232;
   font-weight: 400;
   padding: 0;
-  margin:0;
+  margin: 0;
   text-decoration: underline;
-  text-decoration-color: rgba(50,50,50,0.3);
+  text-decoration-color: rgba(50, 50, 50, 0.3);
 
 }
 
@@ -423,7 +423,7 @@ a {
 .enter-form a:focus {
   color: #e84d37;
   text-decoration: underline;
-  text-decoration-color: rgba(232,77,55,0.3);
+  text-decoration-color: rgba(232, 77, 55, 0.3);
 }
 
 .enter-form a:active {
@@ -441,7 +441,7 @@ a {
   left: 19px;
 }
 
-li:hover> .enter-form {
+li:hover > .enter-form {
   display: block;
 }
 
@@ -493,11 +493,11 @@ li:hover> .enter-form {
   text-decoration: none;
 }
 
-.addres-phone  a {
+.addres-phone a {
   text-decoration: none;
 }
 
- .phone:hover {
+.phone:hover {
   color: #ffffff;
   text-decoration: none;
 }
@@ -537,7 +537,7 @@ li:hover> .enter-form {
 
 .order td {
   position: relative;
-//  padding-bottom: 13px;
+  //  padding-bottom: 13px;
   vertical-align: top;
   //padding-top: 10px;
   padding-bottom: 14px;
@@ -549,8 +549,6 @@ li:hover> .enter-form {
 .delete {
   width: 21px;
   padding-top: 12px
-
-
 }
 
 .order-img {
@@ -612,17 +610,16 @@ li:hover> .enter-form {
 }
 
 .order .btn {
- position: absolute;
+  position: absolute;
   font-size: 18px;
   line-height: 24px;
   bottom: 21px;
   right: 15px;
   min-height: 45px;
   width: 170px
-
 }
 
-li:hover> .order {
+li:hover > .order {
   display: block;
 }
 
@@ -645,12 +642,12 @@ li:hover> .order {
   line-height: 16px;
   font-weight: 400;
   text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.3);
+  text-decoration-color: rgba(255, 255, 255, 0.3);
 }
 
 .crumbs a:hover {
-  color:  rgb(255,188,158);
-  text-decoration-color: rgba(255,188,158,0.3);
+  color: rgb(255, 188, 158);
+  text-decoration-color: rgba(255, 188, 158, 0.3);
 }
 
 .crumbs-active a {
@@ -674,7 +671,7 @@ li:hover> .order {
   padding-bottom: 38px;
 }
 
-.sort-form  form {
+.sort-form form {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -694,9 +691,8 @@ li:hover> .order {
 }
 
 .sort-form p,
-.range
- {
-	margin-right: 15px;
+.range {
+  margin-right: 15px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -713,8 +709,8 @@ li:hover> .order {
 
 
 
-  .label-fatness {
-`margin-bottom: 6px;
+.label-fatness {
+  `margin-bottom: 6px;
   padding-left: 13px;
 }
 
@@ -724,12 +720,12 @@ li:hover> .order {
 }
 
 .sort-form span {
-	display: flex;
+  display: flex;
 
 }
 
 .opacity-fill {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   min-height: 37px;
   padding-top: 8px;
   padding-bottom: 7px;
@@ -744,13 +740,13 @@ li:hover> .order {
   line-height: 18px;
   font-weight: 500;
   color: #ffffff;
-  padding-left:10px;
+  padding-left: 10px;
   position: relative;
   margin-bottom: 14px;
 }
 
 .sort-select::before {
-	content: "";
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -760,13 +756,13 @@ li:hover> .order {
 }
 
 .sort-select:hover {
-	color: #323232;
+  color: #323232;
   background-color: #9db1a5;
 
 }
 
 .range {
-	width: 220px;
+  width: 220px;
 }
 
 .range-block {
@@ -780,7 +776,7 @@ li:hover> .order {
   position: relative;
   width: 176px;
   height: 4px;
-  background-color: rgba(248,247,244,0.5);
+  background-color: rgba(248, 247, 244, 0.5);
   margin-top: 16px;
   margin-left: 21px;
   cursor: pointer;
@@ -790,7 +786,7 @@ li:hover> .order {
   width: 100px;
   height: 100%;
   margin-left: 22px;
-  background-color: rgb(248,247,244);
+  background-color: rgb(248, 247, 244);
 
 }
 
@@ -818,7 +814,7 @@ li:hover> .order {
 }
 
 .fatness {
-	padding-right: 12px;
+  padding-right: 12px;
   //padding-left: 14px;
   padding-top: 9px;
 
@@ -843,7 +839,7 @@ li:hover> .order {
 .fatness label::before {
   content: "";
   position: absolute;
-  width:22px;
+  width: 22px;
   height: 22px;
   border-radius: 50%;
   border: 4px solid #ffffff;
@@ -869,8 +865,8 @@ li:hover> .order {
   top: 6px;
 }
 
-.fatness input:checked+ label::after{
-	display: block;
+.fatness input:checked + label::after {
+  display: block;
 }
 
 .fatness label:hover::before,
@@ -903,7 +899,7 @@ li:hover> .order {
 .fillers label::before {
   content: "";
   position: absolute;
-  width:26px;
+  width: 26px;
   height: 23px;
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
@@ -917,8 +913,8 @@ li:hover> .order {
   opacity: 1;
 }
 
-.fillers input:checked+ label::before {
-	background-image: url("../img/checkbox-on.svg");
+.fillers input:checked + label::before {
+  background-image: url("../img/checkbox-on.svg");
 }
 
 .sort-form button {
@@ -1132,7 +1128,7 @@ li[class^="banner-"] {
 }
 
 .banners-list {
-	display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
@@ -1180,7 +1176,7 @@ li[class^="banner-"] {
 }
 
 .goods {
-	padding-right: 14px;
+  padding-right: 14px;
   padding-left: 14px;
 }
 
@@ -1233,12 +1229,12 @@ li[class^="banner-"] {
 
 }
 
-.item-hover  {
+.item-hover {
   display: none;
   position: absolute;
   width: 294px;
   height: 406px;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   top: -6px;
   left: -13px;
   background-repeat: no-repeat;
@@ -1248,18 +1244,18 @@ li[class^="banner-"] {
 }
 
 .item-hover .btn {
-	position: absolute;
+  position: absolute;
   bottom: 21px;
   left: 45px;
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
-    width: 202px;
+  width: 202px;
   height: 44px;
   padding-top: 12px;
 }
 
-li:hover> .item-hover {
+li:hover > .item-hover {
   display: block;
 }
 
@@ -1287,7 +1283,7 @@ li:hover> .item-hover {
   font-size: 16px;
   line-height: 22px;
   text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.3);
+  text-decoration-color: rgba(255, 255, 255, 0.3);
   text-align: center;
   color: #ffffff;
   margin-top: 7px;
@@ -1296,8 +1292,8 @@ li:hover> .item-hover {
 }
 
 .hit-description:hover {
-  color: rgb(255,188,158);
-  text-decoration-color: rgba(255,188,158,0.3);
+  color: rgb(255, 188, 158);
+  text-decoration-color: rgba(255, 188, 158, 0.3);
 }
 
 .features {
@@ -1410,7 +1406,7 @@ li:hover> .item-hover {
 
 .news-blog a:hover {
   text-decoration: underline;
-	text-decoration-color: #323232;
+  text-decoration-color: #323232;
 }
 
 .subscription-form {
@@ -1577,7 +1573,7 @@ li:hover> .item-hover {
 }
 
 .paginator-active a:hover {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .paginator-active a {
@@ -1703,12 +1699,12 @@ li:hover> .item-hover {
   line-height: 18px;
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.3);
+  text-decoration-color: rgba(255, 255, 255, 0.3);
 }
 
 .official a:hover {
-  color: rgb(255,188,158);
-  text-decoration-color: rgba(255,188,158,0.3);
+  color: rgb(255, 188, 158);
+  text-decoration-color: rgba(255, 188, 158, 0.3);
 }
 
 .suppliers a {
@@ -1747,7 +1743,7 @@ li:hover> .item-hover {
 
 .footer-copyright span {
   text-decoration: underline;
-  text-decoration-color: rgba(255,255,255,0.3);
+  text-decoration-color: rgba(255, 255, 255, 0.3);
 }
 
 .feedback-form {
@@ -1793,7 +1789,7 @@ li:hover> .item-hover {
 }
 
 .feedback-form input:hover {
-	border: 2px solid #c7c6c5;
+  border: 2px solid #c7c6c5;
 }
 
 .feedback-form textarea {
@@ -1809,7 +1805,7 @@ li:hover> .item-hover {
 }
 
 .close-button {
-	border: none;
+  border: none;
   background-color: transparent;
   position: absolute;
   right: 29px;
@@ -1822,10 +1818,11 @@ li:hover> .item-hover {
 
 
 }
+
 .button-form-close::before {
   content: "";
   position: absolute;
-  width:17px;
+  width: 17px;
   height: 17px;
   background-image: url("../img/X.svg")
 }

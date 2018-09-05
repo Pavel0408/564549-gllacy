@@ -762,7 +762,7 @@ li:hover > .order {
   color: #ffffff;
   padding-left: 14px;
   position: relative;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .sort-select::before {
@@ -949,6 +949,7 @@ li:hover > .order {
   border-radius: 25px;
   margin-top: auto;
   margin-left: 3px;
+  margin-bottom: 2px;
 }
 
 .sort-form button:hover,
@@ -961,6 +962,8 @@ li:hover > .order {
   color: #323232;
   background-color: #eaeaea;
   box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.4);
+  border: none;
+
 }
 
 

@@ -209,14 +209,15 @@
 
       <section class="map container">
         <h2 class="visually-hidden">Как до нас добраться</h2>
-        <img src="img/map-mask.jpg" width="1200" height="430">
+        <img src="img/map-mask.jpg" width="1200" height="430" alt="Как до нас добраться">
+        <iframe src="https://yandex.ru/map-widget/v1/-/CBBYv8Q2kD" width="100%" height="430" frameborder="1" allowfullscreen="true"></iframe>
         <section class="address">
           <p class="default">Адрес главного офиса<br>и офлайн-магазина:</p>
           <p class="default"><span class="address-content">ул. Большая Конюшенная<br>19/8, Санкт-Петербург</span></p>
           <p class="default">Для заказов по телефону:</p>
           <p><span class="address-content default">8 812 450-25-25</span></p>
           <p class="default">(с 10 до 20 ежедневно)</p>
-          <a href="#" class="btn">Форма обратной связи</a>
+          <a href="#" class="btn btn-form">Форма обратной связи</a>
 
         </section>
       </section>
@@ -241,7 +242,7 @@
       <h2 class="visually-hidden">Информация о правообладателях</h2>
       <section class="footer-copyright">
         <div class="copyright-logo">
-          <a href="#"><img src="img/logo-htmlacademy-small.svg" width="120" height="39" alt="HTML Academy ">
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy-small.svg" width="120" height="39" alt="HTML Academy ">
             <p class="default">Сделано в <span>HTML Academy</span> © 2017</p>
           </a>
         </div>
@@ -252,18 +253,19 @@
 
     <section class="feedback-form" title="Форма обратной связи">
       <h2 class="default">Мы обязательно вам ответим!</h2>
-      <button type="button" class="close-button"><span class="visually-hidden">Закрыть форму</span><span class="button-form-close"></span> </button>
-      <form action="https://echo.htmlacademy.ru" method="post">
+      <button type="button" class="close-button" title="Закрыть форму обратной связи"><span class="visually-hidden">Закрыть форму</span></button>
+      <form class="comments-form" action="https://echo.htmlacademy.ru" method="post">
         <label for="name" class="visually-hidden">Ваше имя</label>
         <input type="text" name="name" id="name" placeholder="Как вас зовут?">
         <label for="email-feedback" class="visually-hidden">Почта для ответа</label>
         <input type="email" name="email-feedback" id="email-feedback" placeholder="Ваша почта для ответа?">
         <label for="message-area" class="visually-hidden">Введите сообщение</label>
-        <textarea name="massgde-area" id="message-area" placeholder="Напишите что-нибудь"></textarea>
+        <textarea name="message-area" id="message-area" placeholder="Напишите что-нибудь"></textarea>
         <button class="btn" type="submit">Отправить</button>
       </form>
     </section>
   </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

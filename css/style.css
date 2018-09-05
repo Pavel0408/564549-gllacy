@@ -1477,6 +1477,14 @@ li:hover > .item-hover {
   left: 265px;
 }
 
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+
 .address {
   width: 303px;
   padding-top: 32px;
@@ -1493,6 +1501,7 @@ li:hover > .item-hover {
   bottom: 62px;
   right: 27px;
   border-radius: 20px;
+  z-index: 5;
 }
 
 .address-content {
@@ -1759,6 +1768,7 @@ li:hover > .item-hover {
   padding-right: 25px;
   border-radius: 10px;
   margin-left: -239px;
+  z-index: 10;
 }
 
 .feedback-form h2 {
@@ -1805,29 +1815,16 @@ li:hover > .item-hover {
 }
 
 .close-button {
+  width: 17px;
+  height: 17px;
   border: none;
   background-color: transparent;
   position: absolute;
+  background-image: url("../img/X.svg");
+  background-repeat: no-repeat;
   right: 29px;
   top: 14px;
-
 }
-
-.button-form-close {
-  position: relative;
-
-
-}
-
-.button-form-close::before {
-  content: "";
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  background-image: url("../img/X.svg")
-}
-
-
 
 .feedback-form .btn {
   font-size: 18px;
@@ -1840,6 +1837,60 @@ li:hover > .item-hover {
   position: absolute;
   right: 25px;
   bottom: 27px;
+}
 
+.show {
+  display: block;
+  animation-name: bounce-1;
+  animation-duration: 0.6s;
+}
 
+.modal-error {
+  animation-name: shake;
+  animation-duration: 0.6s;
+}
+
+@keyframes bounce-1 {
+  0% {
+    transform: translate(200px, 50px);
+    opacity: 0.3;
+  }
+
+  70% {
+    transform: translate(100px, 50px);
+    opacity: 0.7;
+  }
+
+  90% {
+    transform: translate(50px, 20px);
+    opacity: 0.9;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
 }

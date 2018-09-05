@@ -737,6 +737,7 @@ li:hover > .order {
   position: relative;
 
 }
+/*
 
 .select-wrapper::before {
   content: "";
@@ -746,6 +747,7 @@ li:hover > .order {
   right: 14px;
   top: 13px;
 }
+*/
 
 
 
@@ -764,11 +766,16 @@ li:hover > .order {
   position: relative;
   margin-bottom: 16px;
   border: none;
+  background-image: url(../img/icon-down.svg);
+  background-repeat: no-repeat;
+  background-position: 167px
 }
 
 .sort-select:hover {
   color: #323232;
   background-color: #9db1a5;
+  background-image: url(../img/icon-down-dir-hover.svg);
+
 
 }
 

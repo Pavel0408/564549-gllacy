@@ -55,9 +55,8 @@ a:active {
   vertical-align: middle;
   border: none;
   text-decoration: none;
-  background-image: linear-gradient(90deg, rgb(202, 56, 36) 0%, rgb(242, 104, 67) 100%);
   box-shadow: 0px 2px 2px 0px rgba(85, 8, 0, 0.54);
-  background: linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
+  background: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
   border-radius: 50px;
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
   border: none;
@@ -71,7 +70,7 @@ a:active {
   background-color: #f27f65;
   background-image: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
   box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
-  background: linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
+  background: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
   text-decoration: none;
 
@@ -80,7 +79,8 @@ a:active {
 .btn:active {
   color: #ffffff;
   background-color: #da4e36;
-  background-image: linear-gradient(90deg, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
+  background-image:
+    linear-gradient(90deg, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
   box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 
 }
@@ -507,14 +507,6 @@ li:hover > .enter-form {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
-  width: 0;
-  height: 0;
-  border: none;
-}
-
 .order {
   position: absolute;
   display: none;
@@ -705,11 +697,11 @@ li:hover > .order {
 }
 
 .sort-form legend {
-	display: block;
+  display: block;
 }
 
 .sort-form legend {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 
@@ -718,7 +710,7 @@ li:hover > .order {
 }
 
 .sort-form .label-range {
-	padding-left: 15px;
+  padding-left: 15px;
 }
 
 
@@ -966,7 +958,7 @@ li:hover > .order {
 .sort-form button:active {
   color: #323232;
   background-color: #eaeaea;
-  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.4);
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
   border: none;
 
 }
@@ -987,7 +979,6 @@ li:hover > .order {
 .site-wrapper::before,
 .site-wrapper::after {
   content: "";
-
   visibility: hidden;
 }
 
@@ -1184,6 +1175,21 @@ li[class^="banner-"] {
   height: 46px;
   min-width: 165px;
   text-align: left;
+  background-image: linear-gradient(90deg, rgb(202, 56, 36) 0%, rgb(242, 104, 67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(85, 8, 0, 0.54);
+
+
+}
+
+.banners .btn:hover,
+.banners .btn:focus {
+  background-image: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
+  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
+}
+
+.banners .btn:active {
+  background-image: linear-gradient(90deg, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
+  box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
 
 .banner-1 {
@@ -1541,7 +1547,7 @@ iframe {
 }
 
 .address p:nth-child(2) {
-  margin-top:4px;
+  margin-top: 4px;
 }
 
 .address p:nth-child(3) {
@@ -1831,7 +1837,9 @@ iframe {
   padding-left: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
-  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
   line-height: 24px;
   border: 1px solid #d3d3d2;
   border-radius: 5px;

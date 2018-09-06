@@ -99,20 +99,20 @@
     <section class="sort-form  container">
       <h2 class="visually-hidden">Сортировка мороженного</h2>
       <form action="https://echo.htmlacademy.ru" method="get">
-        <div class="select-block">
-          <label class="label-select" for="sort-type">Сортировка</label>
-          <div class="select-wrapper"><select class="sort-select opacity-fill" name="sort-type" id="sort-type">
+        <fieldset class="select-block">
+          <legend class="label-select">Сортировка</legend>
+          <select class="sort-select opacity-fill" name="sort-type" id="sort-type">
             <option>по популярности</option>
             <option>сначала недорогие</option>
             <option>сначала дорогие</option>
             <option>по жирности</option>
           </select>
-        </div>
-        </div>
+
+        </fieldset>
 
 
-        <div class="range">
-          <span class="label-range">Цена: 100 руб. – 500 руб.</span>
+        <fieldset class="range">
+          <legend class="label-range">Цена: 100 руб. – 500 руб.</legend>
           <div class="range-block">
             <div class="range-line">
               <div class="range-fill">
@@ -121,11 +121,11 @@
               </div>
             </div>
           </div>
-        </div>
+        </fieldset>
 
 
-        <p class="default"><span class="label-fatness"> Жирность</span>
-          <span class="fatness opacity-fill">
+        <fieldset><legend class="label-fatness"> Жирность</legend>
+          <div class="fatness opacity-fill">
             <input type=radio name="fatness" id="0" value="0%">
             <label for="0">0%</label>
             <input type=radio checked name="fatness" id="10" value="до 10%">
@@ -134,13 +134,13 @@
             <label for="30">до 30%</label>
             <input type=radio name="fatness" id="max" value="выше 30%">
             <label for="max">выше 30%</label>
-          </span>
-        </p>
+          </div>
+        </fieldset>
 
 
-        <p class="default">
-          <span class="label-fillers">Наполнители:</span>
-          <span class="fillers opacity-fill">
+        <fieldset class="fillers-block">
+          <legend class="label-fillers">Наполнители:</legend>
+          <div class="fillers opacity-fill">
             <input type="checkbox" checked name="chocolate" id="chocolate">
             <label for="chocolate">шоколадные</label>
             <input type="checkbox" checked name="sugar" id="sugar">
@@ -151,8 +151,8 @@
             <label for="syrups">сиропы</label>
             <input type="checkbox" name="jams" id="jams">
             <label for="jams">джемы</label>
-          </span>
-        </p>
+          </div>
+        </fieldset>
         <button type="submit">Применить</button>
       </form>
     </section>

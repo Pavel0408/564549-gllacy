@@ -672,7 +672,14 @@ li:hover > .order {
 
 .sort-form {
   padding-top: 26px;
-  padding-bottom: 38px;
+  padding-bottom: 41px;
+}
+
+.sort-form fieldset,
+.sort-form legend {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .sort-form form {
@@ -683,48 +690,50 @@ li:hover > .order {
 }
 
 .sort-form label,
-.sort-form p,
-.sort-form span {
+.sort-form legend {
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   color: #ffffff;
 }
 
-.sort-form p,
-.range,
-.select-block {
-  margin-right: 15px;
+.sort-form fieldset {
+  margin-right: 16px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-*[class*="label-"] {
-  padding-bottom: 6px;
-  padding-left: 14px;
+.sort-form legend {
+	display: block;
 }
 
-.label-select {
-  padding-left: 16px;
+.sort-form legend {
+	margin-bottom: 5px;
+}
+
+
+.sort-form .label-select {
+  margin-left: 16px;
+}
+
+.sort-form .label-range {
+	padding-left: 15px;
 }
 
 
 
-.label-fatness {
+.sort-form .label-fatness {
   `margin-bottom: 6px;
   padding-left: 13px;
 }
 
-.label-fillers {
-  padding-bottom: 4px;
+.sort-form .label-fillers {
+  margin-bottom: 2px;
   padding-left: 15px;
-}
-
-.sort-form span {
-  display: flex;
 
 }
+
 
 .opacity-fill {
   background-color: rgba(255, 255, 255, 0.2);
@@ -744,14 +753,14 @@ li:hover > .order {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
-  width: 194px;
+  width: 192px;
   min-height: 36px;
   border-radius: 15px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
   color: #ffffff;
-  padding-left: 14px;
+  padding-left: 15px;
   position: relative;
   margin-bottom: 16px;
   border: none;
@@ -777,6 +786,7 @@ li:hover > .order {
   height: 37px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
+  padding-top: 1px;
 }
 
 .range-line {
@@ -784,7 +794,7 @@ li:hover > .order {
   width: 176px;
   height: 4px;
   background-color: rgba(248, 247, 244, 0.5);
-  margin-top: 16px;
+  margin-top: 15px;
   margin-left: 21px;
   cursor: pointer;
 }
@@ -821,8 +831,8 @@ li:hover > .order {
 }
 
 .fatness {
+  display: flex;
   padding-right: 12px;
-  //padding-left: 14px;
   padding-top: 9px;
   margin-right: 4px;
 
@@ -882,11 +892,15 @@ li:hover > .order {
   opacity: 1;
 }
 
+.sort-form .fillers-block {
+  margin-right: 13px;
+}
+
 .fillers {
+  display: flex;
   margin-top: 3px;
   margin-right: 0px;
   padding-left: 15px;
-
   padding-bottom: 0px;
 }
 
@@ -896,12 +910,12 @@ li:hover > .order {
 
 .fillers label {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 17px;
   padding-left: 32px;
   margin-right: 21px;
   position: relative;
   padding-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 3px;
   font-weight: 500;
   margin-bottom: 0px;
 }
@@ -939,7 +953,7 @@ li:hover > .order {
   border-radius: 25px;
   margin-top: auto;
   margin-left: 0px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
 
 }
 
@@ -1131,14 +1145,13 @@ li[class^="banner-"] {
   // min-height: 230px;
 }
 
-.banners h2 {
+.banners h3 {
   font-size: 35px;
   line-height: 41px;
   font-weight: bold;
   padding-left: 18px;
   padding-top: 17px;
-
-  color:
+  color: #ffffff;
 }
 
 .banners-list {
@@ -1854,6 +1867,7 @@ iframe {
   background-repeat: no-repeat;
   right: 29px;
   top: 14px;
+  outline: none;
 }
 
 .feedback-form .btn {

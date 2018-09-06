@@ -468,6 +468,11 @@ li:hover > .enter-form {
   background-image: url("../img/basket-hover.svg");
 }
 
+.basket-full a {
+  background-color: #f7f6f3;
+  color: #323232;
+}
+
 .basket-full a::before {
   background-image: url("../img/basket-full.svg");
 }
@@ -525,7 +530,6 @@ li:hover > .enter-form {
 }
 
 .order table {
-
   display: flex;
   font-size: 13px;
   line-height: 16px;
@@ -678,9 +682,6 @@ li:hover > .order {
   align-items: flex-start;
 }
 
-
-
-
 .sort-form label,
 .sort-form p,
 .sort-form span {
@@ -737,18 +738,6 @@ li:hover > .order {
   position: relative;
 
 }
-/*
-
-.select-wrapper::before {
-  content: "";
-  position: absolute;
-  border: 7px solid transparent;
-  border-top: 10px solid #ffffff;
-  right: 14px;
-  top: 13px;
-}
-*/
-
 
 
 .sort-select {
@@ -835,6 +824,7 @@ li:hover > .order {
   padding-right: 12px;
   //padding-left: 14px;
   padding-top: 9px;
+  margin-right: 4px;
 
 }
 
@@ -894,7 +884,9 @@ li:hover > .order {
 
 .fillers {
   margin-top: 3px;
-  padding-left: 16px;
+  margin-right: 0px;
+  padding-left: 15px;
+
   padding-bottom: 0px;
 }
 
@@ -906,7 +898,7 @@ li:hover > .order {
   font-size: 16px;
   line-height: 18px;
   padding-left: 32px;
-  margin-right: 20px;
+  margin-right: 21px;
   position: relative;
   padding-bottom: 0px;
   padding-top: 0px;
@@ -942,12 +934,13 @@ li:hover > .order {
   color: #ffffff;
   background-color: #a6b7ae;
   border: 2px solid #fbfcfb;
-  min-width: 142px;
+  min-width: 144px;
   height: 36px;
   border-radius: 25px;
   margin-top: auto;
-  margin-left: 3px;
+  margin-left: 0px;
   margin-bottom: 2px;
+
 }
 
 .sort-form button:hover,
@@ -1246,7 +1239,7 @@ li[class^="banner-"] {
   margin-right: 13px;
   margin-left: 13px;
   position: relative;
-  padding-bottom: 39px;
+  padding-bottom: 38px;
 
 }
 
@@ -1287,7 +1280,7 @@ li:hover > .item-hover {
 
 .hit-price {
   position: absolute;
-  top: 210px;
+  top: 209px;
   font-size: 45px;
   line-height: 45px;
   font-weight: bold;
@@ -1344,8 +1337,8 @@ li:hover > .item-hover {
 .features-list li {
   position: relative;
   width: 540px;
-  padding-left: 57px;
-  padding-top: 20px;
+  padding-left: 56px;
+  padding-top: 22px;
 }
 
 .features-list li::before {
@@ -1355,7 +1348,7 @@ li:hover > .item-hover {
   height: 50px;
 
   left: 0px;
-  top: 6px;
+  top: 9px;
   background-repeat: no-repeat;
 
 }
@@ -1402,12 +1395,10 @@ li:hover > .item-hover {
 
 .news-blog {
   padding-left: 20px;
-  padding-top: 26px;
+  padding-top: 22px;
   color: #323232;
   background-color: #ffffff;
   background-image: url("../img/strawberry-background-mask.jpg");
-
-
 }
 
 .news-blog h2 {
@@ -1423,6 +1414,7 @@ li:hover > .item-hover {
   line-height: 30px;
   font-weight: bold;
   color: #323232;
+  padding-top: 4px;
 }
 
 .news-blog a:hover {
@@ -1436,7 +1428,7 @@ li:hover > .item-hover {
   font-weight: 400;
   color: 5a5a5a;
   background-color: #f8f7f4;
-  padding-top: 29px;
+  padding-top: 27px;
   padding-left: 21px;
   padding-bottom: 33px;
   padding-right: 21px;
@@ -1452,12 +1444,12 @@ li:hover > .item-hover {
 }
 
 .subscription-form input {
-  margin-top: 34px;
+  margin-top: 37px;
   width: 368px;
   height: 44px;
-  padding-left: 11px;
+  padding-left: 12px;
   padding-right: 11px;
-  padding-top: 14px;
+  padding-top: 12px;
   padding-bottom: 13px;
   border: 1px solid #d3d3d2;
   border-radius: 5px;
@@ -1509,9 +1501,9 @@ iframe {
 .address {
   width: 303px;
   padding-top: 32px;
-  padding-left: 26px;
+  padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 40px;
+  padding-bottom: 39px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -1535,12 +1527,20 @@ iframe {
   margin-bottom: 0px;
 }
 
+.address p:nth-child(2) {
+  margin-top:4px;
+}
+
 .address p:nth-child(3) {
-  margin-top: 19px;
+  margin-top: 17px;
 }
 
 .address p:nth-child(4) {
-  margin-top: 7px;
+  margin-top: 5px;
+}
+
+.address p:nth-child(5) {
+  margin-top: 3px;
 }
 
 .address .btn {
@@ -1548,8 +1548,8 @@ iframe {
   line-height: 24px;
   width: 252px;
   height: 44px;
-  padding-top: 12px;
-  margin-top: 20px;
+  padding-top: 10px;
+  margin-top: 22px;
 
 
 }
@@ -1559,7 +1559,7 @@ iframe {
   justify-content: flex-end;
   align-items: flex-start;
 
-  margin-top: 40px;
+  margin-top: 41px;
   padding-bottom: 33px;
   border-bottom: 1px solid #a9bbb1;
 
@@ -1590,7 +1590,7 @@ iframe {
   border-radius: 50%;
   text-align: center;
   vertical-align: middle;
-  padding-top: 5px;
+  padding-top: 6px;
 }
 
 .paginator a:hover {
@@ -1644,12 +1644,16 @@ iframe {
 }
 
 .main-footer {
-  padding-top: 13px;
+  padding-top: 9px;
   padding-bottom: 22px;
   padding-right: 27px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.catalog-footer {
+  padding-top: 14px;
 }
 
 .social {
@@ -1658,7 +1662,7 @@ iframe {
   justify-content: flex-start;
   align-content: flex-start;
   position: relative;
-  padding-top: 17px;
+  padding-top: 19px;
   padding-left: 0px;
 
 }
@@ -1714,7 +1718,7 @@ iframe {
   align-content: flex-start;
   width: 400px;
   margin-left: 155px;
-  padding-top: 13px;
+  padding-top: 15px;
 
 
 }
@@ -1748,7 +1752,7 @@ iframe {
   height: 16px;
 
   left: -22px;
-  top: 0px;
+  top: 1px;
   background-image: url("../img/heart.svg");
   background-repeat: no-repeat;
 
@@ -1765,6 +1769,11 @@ iframe {
 
 .footer-copyright {
   margin-left: auto;
+  padding-top: px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+
 }
 
 .footer-copyright a {

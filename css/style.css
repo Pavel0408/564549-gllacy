@@ -1692,7 +1692,8 @@ iframe {
   opacity: 0.8;
 }
 
-.social a:hover {
+.social a:hover,
+.social a:focus {
   opacity: 1;
 
 }
@@ -1743,7 +1744,6 @@ iframe {
 }
 
 .official li {
-
   min-width: 142px;
 }
 
@@ -1846,13 +1846,13 @@ iframe {
 }
 
 .feedback-form input::-webkit-input-placeholder {
-	font-size: 16px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 400;
 }
 
 .feedback-form input:-moz-placeholder {
-	font-size: 16px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 400;
 }

@@ -1845,6 +1845,18 @@ iframe {
   border-radius: 5px;
 }
 
+.feedback-form input::-webkit-input-placeholder {
+	font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.feedback-form input:-moz-placeholder {
+	font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
 .feedback-form input:active {
   border: 2px solid #8fbdec;
 }

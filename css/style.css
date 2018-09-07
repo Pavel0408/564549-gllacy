@@ -1907,6 +1907,7 @@ iframe {
   display: block;
   animation-name: bounce-1;
   animation-duration: 0.6s;
+  animation-timing-function: linear;
 }
 
 .modal-error {
@@ -1920,7 +1921,7 @@ iframe {
     opacity: 0.3;
   }
 
-  70% {
+  30% {
     transform: translate(100px, 50px);
     opacity: 0.7;
   }

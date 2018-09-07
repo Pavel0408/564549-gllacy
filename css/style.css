@@ -1926,7 +1926,7 @@ iframe {
     opacity: 0.7;
   }
 
-  90% {
+  60% {
     transform: translate(50px, 20px);
     opacity: 0.9;
   }

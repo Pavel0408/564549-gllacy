@@ -1,5 +1,6 @@
 var FormLink = document.querySelector(".btn-form");
 var feedbackForm = document.querySelector(".feedback-form");
+var overlay = document.querySelector(".modal-overlay");
 var CloseButton = document.querySelector(".close-button")
 var userName = feedbackForm.querySelector("[name=name]");
 var commentsForm = document.querySelector(".comments-form");
@@ -20,6 +21,8 @@ try {
 FormLink.addEventListener("click", function (evt) {
   evt.preventDefault();
   feedbackForm.classList.add("show");
+  feedbackForm.classList.add("animation");
+  overlay.classList.add("show");
   if (storage) {
     userName.value = storage;
     emailFeedback.value = localStorage.emailFeedback;
@@ -34,6 +37,7 @@ FormLink.addEventListener("click", function (evt) {
 CloseButton.addEventListener("click", function (evt) {
   evt.preventDefault();
   feedbackForm.classList.remove("show");
+  overlay.classList.remove("show");
   feedbackForm.classList.remove("modal-error");
 });
 
@@ -42,6 +46,7 @@ window.addEventListener("keydown", function (evt) {
     if (feedbackForm.classList.contains("show")) {
       evt.preventDefault();
       feedbackForm.classList.remove("show");
+      overlay.classList.remove("show");
       feedbackForm.classList.remove("modal-error");
     }
   }

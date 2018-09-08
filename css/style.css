@@ -1312,12 +1312,14 @@ li[class^="banner-"] {
 
 .banner-1 {
   background-color: #9f1d36;
-  background-image: url("../img/raspberry-background-full.jpg")
+  background-image: url("../img/raspberry-background-full.jpg");
+  background-size: cover;
 }
 
 .banner-2 {
   background-color: #3d2419;
-  background-image: url("../img/chocolate-background-full.jpg")
+  background-image: url("../img/chocolate-background-full.jpg");
+  background-size: cover;
 }
 
 .hits {

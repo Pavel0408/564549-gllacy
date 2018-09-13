@@ -53,10 +53,7 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(85, 8, 0, 0.54);
   box-shadow: 0px 2px 2px 0px rgba(85, 8, 0, 0.54);
-  background: -webkit-gradient(linear, left top, right top, from(rgb(231, 74, 53)), to(rgb(242, 104, 67)));
-  background: -webkit-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background: -o-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
+  background-image: linear-gradient(to bottom, rgb(242,104,67) 0%, rgb(231,75,54) 100%);
   border-radius: 50px;
   -webkit-box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
@@ -68,16 +65,7 @@ input[type="radio"].visually-hidden {
 .btn:focus {
   color: #ffffff;
   background-color: #f27f65;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(231, 74, 53)), to(rgb(242, 104, 67)));
-  background-image: -webkit-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background-image: -o-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background-image: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  -webkit-box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
-  box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
-  background: -webkit-gradient(linear, left top, right top, from(rgb(231, 74, 53)), to(rgb(242, 104, 67)));
-  background: -webkit-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background: -o-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
+  background-image: linear-gradient(to bottom, rgb(245,134,105) 0%, rgb(236,111,94) 100%);
   -webkit-box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
   text-decoration: none;
@@ -86,10 +74,7 @@ input[type="radio"].visually-hidden {
 .btn:active {
   color: #ffffff;
   background-color: #da4e36;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(242, 104, 67)), to(rgb(231, 74, 53)));
-  background-image: -webkit-linear-gradient(left, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
-  background-image: -o-linear-gradient(left, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
-  background-image: linear-gradient(90deg, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
+  background-image: linear-gradient(to bottom, rgb(215,70,50) 0%, rgb(225,97,62) 100%);
   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
   box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
@@ -642,7 +627,8 @@ li:hover > .order {
   text-decoration-color: rgba(255, 255, 255, 0.3);
 }
 
-.crumbs a:hover {
+.crumbs a:hover,
+.crumbs a:focus {
   color: rgb(255, 188, 158);
   -webkit-text-decoration-color: rgba(255, 188, 158, 0.3);
   text-decoration-color: rgba(255, 188, 158, 0.3);
@@ -855,7 +841,6 @@ li:hover > .order {
   background-repeat: no-repeat;
   left: 13px;
   top: -1px;
-
 }
 
 .fatness label::after {
@@ -887,7 +872,6 @@ li:hover > .order {
 outline: 1px dotted #ffffff;
 outline-offset: 2px;
 opacity: 1;
-
 }
 
 
@@ -962,6 +946,7 @@ outline-offset: 2px;
 
 .sort-form button:hover,
 .sort-form button:focus {
+  border: none;
   color: #323232;
   background-color: #fbfcfb;
 }
@@ -969,8 +954,8 @@ outline-offset: 2px;
 .sort-form button:active {
   color: #323232;
   background-color: #eaeaea;
-  -webkit-box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
-  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.004);
+  -webkit-box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.4);
+  box-shadow: inset 0px 2px 1px 0px rgba(105, 105, 105, 0.4);
   border: none;
 }
 
@@ -1042,10 +1027,7 @@ outline-offset: 2px;
   text-decoration: none;
   text-shadow: 0 2px 5px rgba(160, 32, 11, 0.76);
   background: #f26843;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f26843), to(#e74a35));
-  background: -webkit-linear-gradient(top, #f26843 0%, #e74a35 100%);
-  background: -o-linear-gradient(top, #f26843 0%, #e74a35 100%);
-  background: linear-gradient(to bottom, #f26843 0%, #e74a35 100%);
+  background: linear-gradient(to bottom, rgb(242, 104, 67) 0%, rgb(231,75,54) 100%);
   border-radius: 50px;
   -webkit-box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
@@ -1053,20 +1035,15 @@ outline-offset: 2px;
   cursor: pointer;
 }
 
-.slider-button:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f58669), to(#ec6f5e));
-  background: -webkit-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
-  background: -o-linear-gradient(top, #f58669 0%, #ec6f5e 100%);
-  background: linear-gradient(to bottom, #f58669 0%, #ec6f5e 100%);
+.slider-button:hover,
+.slider-button:focus {
+  background-image: linear-gradient(to bottom, rgb(245,134,105) 0%, rgb(236,111,94) 100%);
   -webkit-box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
   box-shadow: 0 2px 2px rgba(172, 16, 0, 1);
 }
 
 .slider-button:active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d84732), to(#e1613e));
-  background: -webkit-linear-gradient(top, #d84732 0%, #e1613e 100%);
-  background: -o-linear-gradient(top, #d84732 0%, #e1613e 100%);
-  background: linear-gradient(to bottom, #d84732 0%, #e1613e 100%);
+  background-image: linear-gradient(to bottom, rgb(215,70,50) 0%, rgb(225,97,62) 100%);
   -webkit-box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
   box-shadow: inset 0 2px 2px rgba(172, 16, 0, 1);
 }
@@ -1197,29 +1174,20 @@ li[class^="banner-"] {
   min-height: 46px;
   min-width: 165px;
   text-align: left;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(202, 56, 36)), to(rgb(242, 104, 67)));
-  background-image: -webkit-linear-gradient(left, rgb(202, 56, 36) 0%, rgb(242, 104, 67) 100%);
-  background-image: -o-linear-gradient(left, rgb(202, 56, 36) 0%, rgb(242, 104, 67) 100%);
-  background-image: linear-gradient(90deg, rgb(202, 56, 36) 0%, rgb(242, 104, 67) 100%);
+  background-image: linear-gradient(to bottom, rgb(239,103,66) 0%, rgb(201,55,37) 100%)
   -webkit-box-shadow: 0px 2px 2px 0px rgba(85, 8, 0, 0.54);
   box-shadow: 0px 2px 2px 0px rgba(85, 8, 0, 0.54);
 }
 
 .banners .btn:hover,
 .banners .btn:focus {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(231, 74, 53)), to(rgb(242, 104, 67)));
-  background-image: -webkit-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background-image: -o-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background-image: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
+  background-image: linear-gradient(to bottom, rgb(245,134,105) 0%, rgb(236,111,94) 100%);
   -webkit-box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
   box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
 }
 
 .banners .btn:active {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(242, 104, 67)), to(rgb(231, 74, 53)));
-  background-image: -webkit-linear-gradient(left, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
-  background-image: -o-linear-gradient(left, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
-  background-image: linear-gradient(90deg, rgb(242, 104, 67) 0%, rgb(231, 74, 53) 100%);
+  background-image: linear-gradient(to bottom, rgb(215,69,49) 0%, rgb(225,97,62) 100%);
   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
   box-shadow: inset 0px 2px 2px 0px rgba(148, 39, 24, 0.004);
 }
@@ -1313,7 +1281,6 @@ li[class^="banner-"] {
   display: none;
   position: absolute;
   width: 294px;
-/*  height: 406px;*/
   height: 112%;
   background-color: rgba(255, 255, 255, 0.2);
   top: -6px;
@@ -1361,6 +1328,7 @@ li:hover > .item-hover {
 .hit-description {
   font-size: 16px;
   line-height: 22px;
+  font-weight: 500;
   text-decoration: underline;
   -webkit-text-decoration-color: rgba(255, 255, 255, 0.3);
   text-decoration-color: rgba(255, 255, 255, 0.3);
@@ -1541,10 +1509,6 @@ li:hover > .item-hover {
   padding-bottom: 6px;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
   box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgb(231, 74, 53)), to(rgb(242, 104, 67)));
-  background-image: -webkit-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background-image: -o-linear-gradient(left, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
-  background-image: linear-gradient(90deg, rgb(231, 74, 53) 0%, rgb(242, 104, 67) 100%);
 }
 
 .subscription-form button:hover {
@@ -1636,27 +1600,17 @@ li:hover > .item-hover {
 }
 
 .paginator {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  margin-top: 41px;
-  padding-bottom: 33px;
+  margin-top: 42px;
+  padding-bottom: 29px;
   border-bottom: 1px solid #a9bbb1;
-}
-
-.paginator li {
-  margin-right: 2px;
-  min-width: 12px;
-}
-
-.paginator li:last-child {
-  margin-right: 0px;
 }
 
 .paginator a {
@@ -1673,6 +1627,7 @@ li:hover > .item-hover {
   text-align: center;
   vertical-align: middle;
   padding: 5px;
+  margin-left: 2px;
 }
 
 .paginator a:hover {
@@ -1698,7 +1653,7 @@ li:hover > .item-hover {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: -1px;
+  top: 3px;
   left: -8px;
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
@@ -1713,14 +1668,17 @@ li:hover > .item-hover {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 7px;
+  top: 11px;
   right: -11px;
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
 }
 
-.next-page a {
-  width: 21px;
+.next-page a,
+.previous-page a {
+  width: 5px;
+  padding: 0;
+  margin: -2px;;
 }
 
 .main-footer {
@@ -1739,7 +1697,7 @@ li:hover > .item-hover {
 }
 
 .catalog-footer {
-  padding-top: 14px;
+  padding-top: 15px;
 }
 
 .social {
@@ -1760,34 +1718,60 @@ li:hover > .item-hover {
 .social a {
   display: block;
   margin-right: 49px;
-  opacity: 0.8;
 }
 
-.social a:hover,
-.social a:focus {
-  opacity: 1;
-}
 
 .social a::before {
   content: "";
   position: absolute;
   width: 40px;
   height: 40px;
-  background-image: url("../img/Twitter.svg"), url("../img/social-border.svg");
-  background-repeat: no-repeat, no-repeat;
+  background-image: url("../img/Twitter.svg");
+  background-repeat: no-repeat;
   background-position: 50%, 50%;
+  opacity: 0.8;
+}
+
+.social a::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/social-border.svg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.5;
+}
+
+
+.social a:hover::before,
+.social a:focus::before {
+  opacity: 1;
+}
+
+.social a:hover::after,
+.social a:focus::after {
+  opacity: 0.7;
+}
+
+.social a:active::before {
+  opacity: 0.8;
+}
+
+.social a:active::after {
+  opacity: 0.7;
 }
 
 .inst a::before {
-  background-image: url("../img/instagram.svg"), url("../img/social-border.svg");
+  background-image: url("../img/instagram.svg");
 }
 
 .fb a::before {
-  background-image: url("../img/Facebook.svg"), url("../img/social-border.svg");
+  background-image: url("../img/Facebook.svg");
 }
 
 .vk a::before {
-  background-image: url("../img/Vkontakte.svg"), url("../img/social-border.svg");
+  background-image: url("../img/Vkontakte.svg");
 }
 
 .official {
@@ -1813,7 +1797,7 @@ li:hover > .item-hover {
 .official a {
   font-size: 13px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: underline;
   -webkit-text-decoration-color: rgba(255, 255, 255, 0.3);
   text-decoration-color: rgba(255, 255, 255, 0.3);
@@ -1857,6 +1841,13 @@ li:hover > .item-hover {
 
 .footer-copyright a {
   text-decoration: none;
+}
+
+.footer-copyright p {
+	margin-top: 2px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 .footer-copyright span {
